@@ -22,7 +22,9 @@ Dataset:
 ### Flask App
 After going through `Messy Room Classifier.ipynb` to get the `vgg_model.h5` model file, we are going to use the model file for the Flask web app that allows users to classify if their room is messy or clean.
 
-Run the Flask app with the following commmand:  
+Create a virtual environment and install the necessary dependencies via `pip install requirements.txt`.
+
+Run the Flask app with the following command:  
 `python index.py`
 
 Open your browser and head to `http://127.0.0.1:5000/`. You should see the Flask app.
